@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "es6", // Compile to ES6 for compatibility
+      "module": "commonjs", // Use CommonJS modules (standard for Node.js)
+      "strict": true, // Enable type-checking strictness
+      "esModuleInterop": true, // Allow smooth integration with ES modules
+      "outDir": "dist", // Output compiled JavaScript files to the "dist" folder
+      "sourceMap": true, // Generate source maps for debugging
+      "allowJs": true, // Allow compiling existing JavaScript code (optional)
+      "lib": ["dom", "dom.iterable", "esnext"], // Include necessary libraries
+      "skipLibCheck": true, // Ignore missing type definitions for third-party libraries (optional)
+      "forceConsistentCasingInFileNames": true // Enforce consistent file naming case
+    },
+    "include": ["src"], // Include the "src" directory for compilation
+    "exclude": ["node_modules"] // Exclude the "node_modules" directory
+  } 
+  
